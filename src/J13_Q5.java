@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Q5 {
+public class J13_Q5 {
     public static void main(String [] args){
         System.out.print("Please enter your name: ");
         Scanner input = new Scanner(System.in);

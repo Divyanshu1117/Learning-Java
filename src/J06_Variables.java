@@ -1,4 +1,4 @@
-public class Variables {
+public class J06_Variables {
     public static void main(String [] args){
         int myNumber = 865;
         int yourNumber;
@@ -12,7 +12,7 @@ public class Variables {
         double myDouble = 6.78647;
         System.out.println(myDouble);
 
-        String wishes = "Good Morning";
+        String wishes = "J02_Good Morning";
         System.out.println(wishes);
 
         char myCharacter = 'K';
