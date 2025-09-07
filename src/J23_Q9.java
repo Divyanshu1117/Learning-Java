@@ -1,6 +1,7 @@
 import java.util.Scanner;
+
 public class J23_Q9 {
-    public static void main(String [] args){
+    public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("Welcome to Perimeter Calculator: ");
         System.out.print("Please enter all 4 sides in cms: ");

@@ -1,5 +1,5 @@
 public class J06_Variables {
-    public static void main(String [] args){
+    public static void main(String[] args) {
         int myNumber = 865;
         int yourNumber;
         yourNumber = 865;

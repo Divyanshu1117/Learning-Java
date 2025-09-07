@@ -1,5 +1,5 @@
 public class J20_Unary {
-    public static void main(String [] args){
+    public static void main(String[] args) {
         int x = 5;
         int y = -x;
         int z = -y;

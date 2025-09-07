@@ -1,6 +1,7 @@
 import java.util.Scanner;
+
 public class J19_Shorthand {
-    public static void main(String [] args){
+    public static void main(String[] args) {
         int a = 5;
         Scanner input = new Scanner(System.in);
         int x1 = input.nextInt();

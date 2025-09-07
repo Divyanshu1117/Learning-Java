@@ -1,6 +1,7 @@
 import java.util.Scanner;
+
 public class J16_Swap {
-    public static void main(String [] args){
+    public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("Welcome to Swapping station:");
         System.out.print("Enter value of A: ");

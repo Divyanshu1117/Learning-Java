@@ -1,6 +1,7 @@
 import java.util.Scanner;
+
 public class J21_Q7 {
-    public static void main(String [] args){
+    public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("Welcome to Arithmetic calculator\n");
         System.out.print("Please enter first number: ");

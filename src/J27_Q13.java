@@ -1,4 +1,5 @@
 import java.util.Scanner;
+
 public class J27_Q13 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);

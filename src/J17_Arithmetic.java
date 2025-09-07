@@ -1,5 +1,5 @@
 public class J17_Arithmetic {
-    public static void main(String [] args){
+    public static void main(String[] args) {
         int a = 8;
         int b = 5;
         System.out.println(a + b);
