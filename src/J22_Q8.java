@@ -9,8 +9,8 @@ public class J22_Q8 {
         System.out.print("Now, please enter second number: ");
         double second = input.nextDouble();
 
-        // double mul = first * second;
-        // System.out.println("\n Result is: " + mul);
+//        double mul = first * second;
+//        System.out.println("\n Result is: " + mul);
         System.out.println("\n Result is: " + (first * second));
     }
 }
