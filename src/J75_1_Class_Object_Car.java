@@ -1,13 +1,34 @@
 public class J75_1_Class_Object_Car {
+    static int noOfCarsSold;
     int noOfWheels;
     String color;
     float maxSpeed;
     float currentFuelInLiters;
     int noOfSeat;
 
+    static {
+        noOfCarsSold = 0;
+        System.out.println("I am in Static Block");
+    }
+
+    {
+        noOfCarsSold++;
+        System.out.println("I am in Init Block");
+    }
+
     J75_1_Class_Object_Car() {
+        this("Black");
+        currentFuelInLiters = 5;
+//        noOfWheels = 4;
+//        this.color = "Black";
+//        maxSpeed = 150;
+//        currentFuelInLiters = 2;
+//        noOfSeat = 5;
+    }
+
+    J75_1_Class_Object_Car(String color) {
         noOfWheels = 4;
-        color = "Black";
+        this.color = color;
         maxSpeed = 150;
         currentFuelInLiters = 2;
         noOfSeat = 5;
