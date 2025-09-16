@@ -21,14 +21,15 @@ public class J75_2_Class_Object_Driver {
 //        System.out.println(myCar.getCurrentFuelLevel());
 
         J75_1_Class_Object_Car swift = new J75_1_Class_Object_Car();
-        swift.addFuel(6);
+//        swift.addFuel(6);
         swift.start().drive();
+        System.out.println(swift.color);
 //        J75_1_Class_Object_Car startedCar = swift.start();
 //        swift.drive();
 
-        J75_2_Class_Object_Driver myDriver = new J75_2_Class_Object_Driver();
-        myDriver.dateOfLicense = "1/Jan/2024";
-        System.out.println(minAgeForDriving);
+//        J75_2_Class_Object_Driver myDriver = new J75_2_Class_Object_Driver();
+//        myDriver.dateOfLicense = "1/Jan/2024";
+//        System.out.println(minAgeForDriving);
 //        System.out.println(J75_2_Class_Object_Driver.minAgeForDriving);
     }
 }

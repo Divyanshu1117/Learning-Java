@@ -5,6 +5,13 @@ public class J75_1_Class_Object_Car {
     float currentFuelInLiters;
     int noOfSeat;
 
+    J75_1_Class_Object_Car() {
+        noOfWheels = 4;
+        color = "Black";
+        maxSpeed = 150;
+        currentFuelInLiters = 2;
+        noOfSeat = 5;
+    }
 
     public J75_1_Class_Object_Car start() {
         if (currentFuelInLiters == 0) {
