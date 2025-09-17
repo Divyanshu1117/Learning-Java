@@ -56,7 +56,6 @@ public class J77_Q51_Course {
     }
 }
 
-
 //public class J77_Q51_Course {
 //    static int maxCapacity = 100;
 //    String courseName;
