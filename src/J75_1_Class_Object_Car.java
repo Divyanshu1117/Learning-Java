@@ -61,4 +61,9 @@ public class J75_1_Class_Object_Car {
     public float getCurrentFuelLevel() {
         return currentFuelInLiters;
     }
+
+//    @Override
+//    protected void finalize() throws Throwable {
+//        System.out.println("I am in Finalize");
+//    }
 }

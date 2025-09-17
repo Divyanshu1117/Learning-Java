@@ -22,6 +22,7 @@ public class J75_2_Class_Object_Driver {
 
         J75_1_Class_Object_Car swift = new J75_1_Class_Object_Car("Red");
         J75_1_Class_Object_Car maruti = new J75_1_Class_Object_Car();
+//        maruti = null;
 //        swift.addFuel(6);
         swift.start().drive();
         System.out.println(swift.color);
