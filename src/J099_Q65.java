@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class J99_Q65 {
+public class J099_Q65 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         while (true) {
