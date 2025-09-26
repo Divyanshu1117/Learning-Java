@@ -2,8 +2,8 @@ package J121_2_Inheritance;
 
 import J121_1_Inheritance.Vehicle;
 
-public class TwoWheeler extends Vehicle {
-    public TwoWheeler() {
+public class Two_Wheeler extends Vehicle {
+    public Two_Wheeler() {
         setNumberOfTires(2);
         numberOfTires = 4;
     }

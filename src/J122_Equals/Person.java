@@ -1,5 +1,7 @@
 package J122_Equals;
 
+import java.util.Objects;
+
 public class Person {
     private String name;
     private int age;
@@ -12,13 +14,31 @@ public class Person {
     }
 
     @Override
-    public boolean equals(Object obj) {
-        if (!(obj instanceof Person)) {
-            return false;
-        }
-        Person per = (Person) obj;
-        return per.name.equals(name) && per.age == age && per.id.equals(id);
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Person person = (Person) o;
+        return age == person.age && Objects.equals(name, person.name) && Objects.equals(id, person.id);
     }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(name, age, id);
+    }
+
+    //    @Override
+//    public boolean equals(Object obj) {
+//        if (!(obj instanceof Person)) {
+//            return false;
+//        }
+//        Person per = (Person) obj;
+//        return per.name.equals(name) && per.age == age && per.id.equals(id);
+//    }
+//
+//    @Override
+//    public int hashCode() {
+//        return Objects.hash(name, age, id);
+//    }
 
     public String getName() {
         return name;

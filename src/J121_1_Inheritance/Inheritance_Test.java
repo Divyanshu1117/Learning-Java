@@ -1,8 +1,8 @@
 package J121_1_Inheritance;
 
-import J121_2_Inheritance.TwoWheeler;
+import J121_2_Inheritance.Two_Wheeler;
 
-public class InheritanceTest {
+public class Inheritance_Test {
     public static void main(String[] args) {
         Vehicle vehicle = new Vehicle();
         vehicle.commute();
@@ -10,11 +10,11 @@ public class InheritanceTest {
         System.out.println(vehicle.hashCode());
         System.out.println(vehicle.getClass());
 
-        TwoWheeler two = new TwoWheeler();
+        Two_Wheeler two = new Two_Wheeler();
         two.commute();
         two.balance();
 
-        MotorCycle motor = new MotorCycle();
+        Motor_Cycle motor = new Motor_Cycle();
         motor.commute();
         motor.balance();
         motor.start();

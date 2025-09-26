@@ -1,11 +1,11 @@
 package J119_Q78;
 
-class BankAccount {
+class Bank_Account {
     private String accountNumber;
     private String accountHolderName;
     private double balance;
 
-    public BankAccount(String accountNumber, String accountHolderName) {
+    public Bank_Account(String accountNumber, String accountHolderName) {
         this.accountNumber = accountNumber;
         this.accountHolderName = accountHolderName;
     }
