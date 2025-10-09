@@ -1,6 +1,14 @@
 package J131_Polymorphism;
 
-class Car implements Vehicle {
+class Car extends Vehicle {
+
+    Car() {
+        super();
+    }
+
+    Car(int noOfTires) {
+        super(noOfTires);
+    }
 
     public int noOfDoors() {
         return 5;
@@ -8,6 +16,7 @@ class Car implements Vehicle {
 
     @Override
     public void start() {
+        System.out.println(super.getNoOfTires());
         System.out.println("Car is starting");
     }
 }

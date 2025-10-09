@@ -6,14 +6,17 @@ public class TestTransportation {
 //        Vehicle v = new Vehicle();
         Plane p = new Plane();
 
+//        c.start();
+//        p.start();
+
 //        castTest(v);
         castTest(c);
         castTest(p);
 
-        Vehicle vCar = new Car();
+//        Vehicle vCar = new Car();
 //        Car cVehicle = (Car) new Vehicle();
 
-        Object ref = new Car();
+//        Object ref = new Car();
 //        Object ref = new Vehicle();
     }
 
