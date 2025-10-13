@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class J007_UserInput {
+public class J007_User_Input {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.print("Please enter your name: ");

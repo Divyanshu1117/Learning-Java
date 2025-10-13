@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class J080_EnhancedSwitch {
+public class J080_Enhanced_Switch {
     public static void main(String[] args) {
         System.out.println("Welcome to Day of the week detector\n");
         Scanner input = new Scanner(System.in);

@@ -1,4 +1,4 @@
-public class J028_LearningIf {
+public class J028_Learning_If {
     public static void main(String[] args) {
         boolean isMale = true;
         String name = "Bob";

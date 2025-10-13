@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class J087_DoWhile {
+public class J087_Do_While {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 //        System.out.print("Please enter your age: ");

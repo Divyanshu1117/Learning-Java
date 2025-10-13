@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class J079_SwitchCase {
+public class J079_Switch_Case {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("Welcome to Day of the week detector\n");

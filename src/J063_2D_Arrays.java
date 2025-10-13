@@ -1,4 +1,4 @@
-public class J063_2DArrays {
+public class J063_2D_Arrays {
     public static void main(String[] args) {
         int[][] myArr = new int[2][3];
         myArr[0][0] = 9;

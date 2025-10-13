@@ -1,4 +1,4 @@
-public class J107_TestingFinal {
+public class J107_Testing_Final {
     // final variable (constant) - value cannot be changed once assigned
     final double PI = 3.1412;
 

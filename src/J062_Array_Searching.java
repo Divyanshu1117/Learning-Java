@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class J062_ArraySearching {
+public class J062_Array_Searching {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int[] arr = {3, 6, 8, 87, 65, 4, 68, 23, 9, 98, 34};

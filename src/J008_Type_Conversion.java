@@ -1,4 +1,4 @@
-public class J008_TypeConversion {
+public class J008_Type_Conversion {
     public static void main(String[] args) {
         float myFloat = 5;
         System.out.println(myFloat);

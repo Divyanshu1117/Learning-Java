@@ -1,4 +1,4 @@
-public class J088_ForLoop {
+public class J088_For_Loop {
     public static void main(String[] args) {
         int i = 1;
         while (i <= 100) {

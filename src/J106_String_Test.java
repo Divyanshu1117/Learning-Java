@@ -1,4 +1,4 @@
-public class J106_StringTest {
+public class J106_String_Test {
     public static void main(String[] args) {
         StringBuilder sb = new StringBuilder("First");
         sb.append(45);

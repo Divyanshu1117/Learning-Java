@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class J078_TernaryOperator {
+public class J078_Ternary_Operator {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("Welcome to number checker\n");

@@ -1,4 +1,4 @@
-public class J089_ForEachLoop {
+public class J089_For_Each_Loop {
     public static void main(String[] args) {
         String[] names = new String[]{"Ram", "Shyam", "Mohan", "Sohan", "Sita", "Geeta"};
 //        printArray(names);

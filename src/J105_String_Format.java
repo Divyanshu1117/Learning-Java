@@ -1,4 +1,4 @@
-public class J105_StringFormat {
+public class J105_String_Format {
     public static void main(String[] args) {
         String name = "Sandeep";
         int marks = 45;
