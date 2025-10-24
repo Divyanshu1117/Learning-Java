@@ -1,6 +1,6 @@
 package J145_Q89;
 
-public class VarArgs {
+public class Var_Args {
     public static void main(String[] args) {
         System.out.println(concatenate("Divyanshu"));
         System.out.println(concatenate("Lovish", "Kamboj"));
