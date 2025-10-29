@@ -1,4 +1,4 @@
-package J165_Q100;
+package J164_Q100;
 
 public class Main {
     public static void main(String[] args) throws InterruptedException {

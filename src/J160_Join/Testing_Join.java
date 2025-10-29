@@ -1,7 +1,5 @@
 package J160_Join;
 
-import J159_Testing_Priority.Print_Task;
-
 public class Testing_Join {
     public static void main(String[] args) throws InterruptedException {
         long startTime = System.currentTimeMillis();
