@@ -1,6 +1,6 @@
-package J160_Join;
+package J167_Executor.Single_Thread;
 
-public class Print_Task_1 implements Runnable {
+public class Print_Task_3 implements Runnable {
 
     @Override
     public void run() {
@@ -13,7 +13,7 @@ public class Print_Task_1 implements Runnable {
 
     private final char targetChar;
 
-    public Print_Task_1(char targetChar) {
+    public Print_Task_3(char targetChar) {
         this.targetChar = targetChar;
     }
 }

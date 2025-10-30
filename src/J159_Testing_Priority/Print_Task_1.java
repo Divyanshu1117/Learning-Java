@@ -1,6 +1,6 @@
 package J159_Testing_Priority;
 
-public class Print_Task implements Runnable {
+public class Print_Task_1 implements Runnable {
 
     @Override
     public void run() {
@@ -13,7 +13,7 @@ public class Print_Task implements Runnable {
 
     private final char targetChar;
 
-    public Print_Task(char targetChar) {
+    public Print_Task_1(char targetChar) {
         this.targetChar = targetChar;
     }
 }

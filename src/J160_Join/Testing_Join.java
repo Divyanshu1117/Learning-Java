@@ -3,9 +3,9 @@ package J160_Join;
 public class Testing_Join {
     public static void main(String[] args) throws InterruptedException {
         long startTime = System.currentTimeMillis();
-        Print_Task_1 p1 = new Print_Task_1('*');
-        Print_Task_1 p2 = new Print_Task_1('$');
-        Print_Task_1 p3 = new Print_Task_1('#');
+        Print_Task_2 p1 = new Print_Task_2('*');
+        Print_Task_2 p2 = new Print_Task_2('$');
+        Print_Task_2 p3 = new Print_Task_2('#');
 
         Thread t1 = new Thread(p1);
         t1.start();

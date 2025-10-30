@@ -3,9 +3,9 @@ package J159_Testing_Priority;
 public class Testing_Runnables {
     public static void main(String[] args) {
         long startTime = System.currentTimeMillis();
-        Print_Task p1 = new Print_Task('*');
-        Print_Task p2 = new Print_Task('$');
-        Print_Task p3 = new Print_Task('#');
+        Print_Task_1 p1 = new Print_Task_1('*');
+        Print_Task_1 p2 = new Print_Task_1('$');
+        Print_Task_1 p3 = new Print_Task_1('#');
 
         Thread t1 = new Thread(p1);
         t1.setPriority(Thread.MIN_PRIORITY);
