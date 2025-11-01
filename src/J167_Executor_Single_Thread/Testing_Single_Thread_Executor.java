@@ -1,4 +1,4 @@
-package J167_Executor.Single_Thread;
+package J167_Executor_Single_Thread;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;

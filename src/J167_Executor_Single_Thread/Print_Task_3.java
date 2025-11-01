@@ -1,4 +1,4 @@
-package J167_Executor.Single_Thread;
+package J167_Executor_Single_Thread;
 
 public class Print_Task_3 implements Runnable {
 
