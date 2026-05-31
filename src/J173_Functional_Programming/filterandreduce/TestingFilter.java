@@ -21,8 +21,6 @@ public class TestingFilter {
 //        });
 
         System.out.println("\nPrinting Fruits using filter:-");
-        fruits.stream()
-                .filter(fruit -> fruit.endsWith("e"))
-                .forEach(fruit -> System.out.println(fruit));
+        fruits.stream().filter(fruit -> fruit.endsWith("e")).forEach(fruit -> System.out.println(fruit));
     }
 }
